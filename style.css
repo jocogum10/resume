@@ -1,0 +1,87 @@
+/* body styling */
+body{
+    background-color: #efefef;
+    font-family: "Courier New", Courier, monospace;
+}
+#content{
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 30px;
+    border-width: 4px;
+    border-style: double;
+    border-color: black;
+    background-color: #ffffff;
+}
+
+/* start of header styling */
+header{
+    display: block;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
+}
+#left-header{
+    float: left;
+}
+#right-header{
+    float: right;
+    margin: 16px 83px 16px auto;
+}
+header img{
+    border-radius: 100px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover, a.on{
+    color: #cc3333;
+    background-color: #efefef;
+}
+header a:visited{
+    color: grey;
+}
+/* end of header  styling */
+
+/* start of section styling */
+section h1{
+    margin: 0px auto 0px auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+section li{
+    margin: 15px auto 15px auto;
+    text-align: justify;
+}
+
+.work-exp-header{
+    display: block;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
+}
+
+.job-desc{
+    float: left;
+    clear: left;
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+}
+.comp-name{
+    float: right;
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+}
+.date-started{
+    float: left;
+    clear: left;
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+}
+.comp-loc{
+    float: right;
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+}
