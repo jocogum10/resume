@@ -85,3 +85,11 @@ section li{
     margin: 5px 0px 5px 0px;
     padding: 0px;
 }
+table{
+    margin: 16px 0px 16px 0px;
+    width: 100%;
+}
+
+.label{
+    width: 20%;
+}
